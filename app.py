@@ -1,6 +1,9 @@
 import config
-from flask import Flask, jsonify
+from flask import Flask, request, jsonify, redirect, url_for
 from requests_oauthlib import OAuth1Session
+
+import ast
+import json
 
 twitter = OAuth1Session(
     config.CLIENT_KEY,
@@ -27,6 +30,19 @@ def test():
     url = 'https://api.twitter.com/1.1/trends/place.json?id=638242'
     r = twitter.get(url)
     return jsonify(status=True, result=r.json())
+
+
+@app.route('/tweet/', methods=['POST'])
+def tweet():
+    body = ast.literal_eval(json.dumps(request.get_json()))
+    url = 'https://api.twitter.com/1.1/trends/place.json?id=638242'
+    r = twitter.get(url)
+    hashtags = [r.json()[0]['trends'][index]['query'] for index in range(3)]
+    output = []
+    for hashtag in hashtags:
+        t = twitter.get("https://api.twitter.com/1.1/search/tweets.json?q={}&count=1&lang=en".format(hashtag))
+        output.append({"text": t.json()['statuses'][0]['text']})
+    return jsonify(status=True, location=body['city'], item=output)
 
 
 if __name__ == '__main__':
