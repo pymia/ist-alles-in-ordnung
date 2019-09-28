@@ -12,3 +12,4 @@ requests==2.22.0
 requests-oauthlib==1.2.0
 urllib3==1.25.6
 Werkzeug==0.16.0
+geopy == 1.20.0
