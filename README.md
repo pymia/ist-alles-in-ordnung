@@ -7,19 +7,26 @@ Have you traveled to a place without knowing how to speak the local language, an
 
 Our goal is helping travelers when they travel to a country they have never visited and don't know how to speak the local language. When there is an emergency situation, talk to your google assistant. We will provide you the **realtime local news in your mother language** so that you will know if you are safe right now.
 
-## app name: 
+## team members
+```
+Mia Chang, Data Scientist
+Muhammad Samir, Experience Design Lead 
+Samuel Tseng, Data Scientist
+```
+
+## app name
 I am safe
 
-## logo:
+## logo
 ![Team Logo](pictures/team-logo.png?raw=true "Team Logo")
 
-## tech stack:
+## tech stack
 - google dialogflow 
 - python flask 
 - twitter developer API
 - azure web app
 
-## google voice assistant workflow: 
+## google voice assistant workflow
 ![google voice assistant workflow](pictures/voice-assistant-workflow.png?raw=true "voice assistant workflow")
 
 We modified the workflow from [Google Dialogflow Fulfillment Documentation](https://cloud.google.com/dialogflow/docs/fulfillment-overview) as above image.
@@ -32,7 +39,7 @@ We modified the workflow from [Google Dialogflow Fulfillment Documentation](http
 6. dialogflow send our message to the user
 7. user will receive `Based on your location, everything is safe and here are some tweets and news...`
 
-## demo site:
+## demo site
 https://ist-alles-in-ordnung.azurewebsites.net
 
 ```
@@ -40,7 +47,7 @@ https://ist-alles-in-ordnung.azurewebsites.net/test
 shows what's the latest trend hashtag in Berlin city
 ```
 
-### demo youtube videos:
+## demo youtube videos
 
 camera 1, from Anh Duc Nguyen, Workstreams.ai
 
