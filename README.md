@@ -21,6 +21,9 @@ I am safe
 
 ## google voice assistant workflow: 
 ![google voice assistant workflow](pictures/voice-assistant-workflow.png?raw=true "voice assistant workflow")
+
+We modified the workflow from [Google Dialogflow Fulfillment Documentation](https://cloud.google.com/dialogflow/docs/fulfillment-overview) as above image.
+
 1. the user triggers our application
 2. google dialogflow does intent matching, receive a `real-time news check of my current location` request from the user
 3. with the location information from the user, use fulfillment calls the flask app
