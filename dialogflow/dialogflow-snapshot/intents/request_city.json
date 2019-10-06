@@ -1,0 +1,45 @@
+{
+  "id": "153e91ab-7aa5-45c7-a53e-8f8df1b1cc2a",
+  "name": "request_city",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "request_city",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f2f53cfb-beea-4a6e-bbef-ad5c7e7795ce",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "city",
+          "value": "$city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Ok you are in $city"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
