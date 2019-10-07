@@ -1,0 +1,26 @@
+[
+  {
+    "id": "6444b570-2a66-4697-8983-06c5ea8d6f18",
+    "data": [
+      {
+        "text": "share location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fc381db1-6ed2-42bf-b4fa-5f8e227b9064",
+    "data": [
+      {
+        "text": "locate me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
