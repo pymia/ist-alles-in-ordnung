@@ -49,10 +49,10 @@ shows what's the latest trend hashtag in Berlin city
 
 ## demo youtube videos
 
-camera 1, from Anh Duc Nguyen, Workstreams.ai
+source: from Workstreams.ai
 
-[![I am safe demo from camera 1](https://img.youtube.com/vi/QFmGyPBsgXc/0.jpg)](https://www.youtube.com/watch?v=QFmGyPBsgXc)
+[![I am safe demo from Workstreams.ai](https://img.youtube.com/vi/pcPcLv_Jd9w/0.jpg)](https://www.youtube.com/watch?v=pcPcLv_Jd9w)
 
-camera 2, from Samuel Tseng
+source: from Samuel Tseng
 
-[![I am safe demo from camera 2](https://img.youtube.com/vi/QFmGyPBsgXc/0.jpg)](https://www.youtube.com/watch?v=QFmGyPBsgXc)
+[![I am safe demo from Samuel Tseng](https://img.youtube.com/vi/QFmGyPBsgXc/0.jpg)](https://www.youtube.com/watch?v=QFmGyPBsgXc)
